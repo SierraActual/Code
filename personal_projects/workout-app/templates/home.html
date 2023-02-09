@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>Welcome to Workout Tracker</h2>
+  <a href="{{ url_for('log_workout') }}">Log Workout</a>
+  <table>
+    <thead>
+      <tr>
+        <th>Workout Name</th>
+        <th>Sets</th>
+        <th>Reps</th>
+        <th>Weight</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for workout in workouts %}
+        <tr>
+          <td>{{ workout.workout_name }}</td>
+          <td>{{ workout.sets }}</td>
+          <td>{{ workout.reps }}</td>
+          <td>{{ workout.weight }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

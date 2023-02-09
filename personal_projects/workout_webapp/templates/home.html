@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Workout Tracker Home</title>
+    </head>
+    <body>
+        <h1>Welcome to Workout Tracker</h1>
+        <p>Previously Logged Workouts:</p>
+        <ul>
+            {% for workout in workouts %}
+            <li>Workout Name: {{ workout.workout_name }}, Sets: {{ workout.sets }}, Reps: {{ workout.reps }}, Weight: {{ workout.weight }}</li>
+            {% endfor %}
+        </ul>
+        <a href="/workout_log">Log a new workout</a>
+        <a href="/logout">Logout</a>
+    </body>
+</html>
