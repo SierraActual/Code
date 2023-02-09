@@ -1,0 +1,36 @@
+[33mcommit d1640e6b88d19f714e0c41cc3368290becdd98dc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: SierraActual <chrispitillo@gmail.com>
+Date:   Sun Jan 15 15:58:37 2023 +0300
+
+    Changes made to project:
+    converted the get_paras to now read from a file. This allows for line breaks
+    and is less clumsy than terminal entry. Will also be good for web app
+    usage.
+    
+    Changes made to test_project:
+    Got rid of the get_paras test as it now just reads from a file. Simple
+    action just doesn't require further testing imo.
+
+[33mcommit b45e5170b4cc6bf0170db30ad82319b57d16b944[m
+Author: SierraActual <chrispitillo@gmail.com>
+Date:   Sun Jan 15 15:09:42 2023 +0300
+
+    Many changes... saving prior to input changes to file input rather than user input
+
+[33mcommit d3c611b2202fe6fc93daefb02aec50d55d14fa99[m
+Author: SierraActual <chrispitillo@gmail.com>
+Date:   Thu Jan 12 15:21:53 2023 +0300
+
+    commit test
+
+[33mcommit 7e7c2cc856376b243b98d59603bc4fc0b9e25816[m
+Author: SierraActual <chrispitillo@gmail.com>
+Date:   Thu Jan 12 15:19:05 2023 +0300
+
+    committing for testing
+
+[33mcommit d94542189951d9642710068960fdedc237df152a[m
+Author: SierraActual <chrispitillo@gmail.com>
+Date:   Wed Jan 11 01:41:39 2023 +0300
+
+    initial input
